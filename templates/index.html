@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=1">
+
+
+</head>
+<body>
+
+    <div class="container">
+    <h1>YouTube Downloader</h1>
+    <p class="subtitle">Classic • Fast • Clean</p>
+
+    <form id="downloadForm">
+        <input type="url" name="geturl" id="urlInput" placeholder="Paste YouTube URL" required>
+
+        <div class="row">
+            <select name="type" id="typeSelect" required>
+                <option value="video">Video</option>
+                <option value="audio">Audio</option>
+            </select>
+
+            <select name="quality" id="qualitySelect">
+                <option value="720">720p (HD)</option>
+            </select>
+        </div>
+
+        <button type="submit" id="downloadBtn">DOWNLOAD</button>
+    </form>
+
+    <div class="status-message" id="statusMessage"></div>
+    
+    <div class="download-progress" id="downloadProgress">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="download-status" id="downloadStatus">Preparing download...</div>
+    </div>
+
+    <footer>
+        <p>© 2026 • All Rights Reserved by SOMNATH</p>
+    </footer>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+</body>
+</html>
