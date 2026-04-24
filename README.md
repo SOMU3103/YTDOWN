@@ -80,23 +80,6 @@ storage   = "BytesIO buffer" # Zero disk writes on server
 ```
 
 ---
-
-## 🎬 Project Preview
-
-<div align="center">
-
-<br/>
-
-[![▶️ Watch Full Demo](https://img.shields.io/badge/▶️__Watch_Full_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](#)
-&nbsp;&nbsp;&nbsp;
-[![🌐 Live Preview](https://img.shields.io/badge/🌐__Live_Preview-Coming_Soon-555555?style=for-the-badge&logoColor=white)](#)
-
-<br/>
-
-> 🎥 *Full walkthrough video uploading soon — watch this space!*
-
-</div>
-
 ---
 
 ## 🚀 Getting Started
